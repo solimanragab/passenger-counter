@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</head>
+
+<body >
+    <div class="parent">
+        <div class="card">
+            <h1>People Entered</h1>
+            <h2 id="count-el" class="m-auto">0</h2>
+            <button id="increment-btn" class="btn btn-success m-1 p-1" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" class="btn btn-info m-1 p-1" onclick="save()">SAVE</button> <br>
+            <p id="save-el" class=" alert alert-info m-2 p-1">Previous entires: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
